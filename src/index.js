@@ -51,6 +51,8 @@ function submit(e){
   image: imgUrl.value
   }
   submitPost(submitInfo)
+  formName.value=''
+  imgUrl.value=''
 }
 
 
